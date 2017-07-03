@@ -30,7 +30,7 @@ public class HomeController {
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
 		
-		int sibal;
+		int sibald;
 		
 		String formattedDate = dateFormat.format(date);
 		
