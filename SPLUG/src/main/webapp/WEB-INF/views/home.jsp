@@ -20,6 +20,8 @@
 <a href="recruit"><button>선배의 리쿠르팅</button></a>
 </center>
 
+<link rel="stylesheet" href="/resources/bootstrap//dist/css/sb-admin-2min.css">
+
 </body>
 </html>
 	
