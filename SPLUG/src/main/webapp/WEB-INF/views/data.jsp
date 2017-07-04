@@ -7,9 +7,21 @@
 	<title>자료실</title>
 </head>
 <body>
-<h1>
-	자료실
-</h1>
+	<div id="wrapper">
+
+		<!-- Navigation -->
+		<%@ include file="naviBar.jsp"%>
+		<!-- /Navigation -->
+
+
+		<div id="page-wrapper">
+자료실
+			<!-- /.row -->
+		</div>
+
+		<!-- /#page-wrapper -->
+
+	</div>
 
 </body>
 </html>

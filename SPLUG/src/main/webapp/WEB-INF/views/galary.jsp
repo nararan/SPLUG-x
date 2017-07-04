@@ -7,9 +7,22 @@
 	<title>갤러리</title>
 </head>
 <body>
-<h1>
-	갤러리 
-</h1>
+	<div id="wrapper">
+
+		<!-- Navigation -->
+		<%@ include file="naviBar.jsp"%>
+		<!-- /Navigation -->
+
+
+		<div id="page-wrapper">
+갤러리
+			<!-- /.row -->
+		</div>
+
+		<!-- /#page-wrapper -->
+
+	</div>
+
 
 </body>
 </html>
