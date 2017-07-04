@@ -7,9 +7,21 @@
 	<title>공지사항</title>
 </head>
 <body>
-<h1>
-	공지사항
-</h1>
+	<div id="wrapper">
+
+		<!-- Navigation -->
+		<%@ include file="naviBar.jsp"%>
+		<!-- /Navigation -->
+
+
+		<div id="page-wrapper">
+공지사항
+			<!-- /.row -->
+		</div>
+
+		<!-- /#page-wrapper -->
+
+	</div>
 
 </body>
 </html>

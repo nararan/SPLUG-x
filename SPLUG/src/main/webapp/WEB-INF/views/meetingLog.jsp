@@ -4,7 +4,7 @@
 
 <html>
 <head>
-	<title>자료실</title>
+	<title>회의록</title>
 </head>
 <body>
 	<div id="wrapper">
@@ -15,7 +15,7 @@
 
 
 		<div id="page-wrapper">
-자료실
+회의록
 			<!-- /.row -->
 		</div>
 

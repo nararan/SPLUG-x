@@ -7,9 +7,23 @@
 	<title>자유게시판</title>
 </head>
 <body>
-<h1>
-	자유게시판 
-</h1>
+
+	<div id="wrapper">
+
+		<!-- Navigation -->
+		<%@ include file="naviBar.jsp"%>
+		<!-- /Navigation -->
+
+
+		<div id="page-wrapper">
+자유게시판
+			<!-- /.row -->
+		</div>
+
+		<!-- /#page-wrapper -->
+
+	</div>
 
 </body>
+
 </html>

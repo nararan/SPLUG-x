@@ -26,85 +26,55 @@ public class HomeController {
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-				
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
+		return "home";
+	}
+	@RequestMapping(value = "home", method = RequestMethod.GET)
+	public String home2(Locale locale, Model model) {
+		logger.info("Welcome home! The client locale is {}.", locale);
 		
 		return "home";
 	}
+	
 	@RequestMapping(value = "notification", method = RequestMethod.GET)
 	public String notification(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-				
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
 		
 		return "notification";
 	}
 	@RequestMapping(value = "recruit", method = RequestMethod.GET)
 	public String recruit(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
-		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-				
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
-		
+			
 		return "recruit";
 	}
 	@RequestMapping(value = "agora", method = RequestMethod.GET)
 	public String agora(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-				
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
 		
 		return "agora";
 	}
 	@RequestMapping(value = "galary", method = RequestMethod.GET)
 	public String galary(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
-		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-				
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
-		
+
 		return "galary";
 	}
 	@RequestMapping(value = "data", method = RequestMethod.GET)
 	public String data(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
-		
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-				
-		String formattedDate = dateFormat.format(date);
-		
-		model.addAttribute("serverTime", formattedDate );
-		
+	
 		return "data";
+	}
+	@RequestMapping(value = "meetingLog", method = RequestMethod.GET)
+	public String meetingLog(Locale locale, Model model) {
+	
+		return "meetingLog";
+	}
+	@RequestMapping(value = "login", method = RequestMethod.GET)
+	public String login(Locale locale, Model model) {
+	
+		return "login";
 	}
 	
 }
