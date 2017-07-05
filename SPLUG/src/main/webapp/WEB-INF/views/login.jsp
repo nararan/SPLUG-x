@@ -30,7 +30,7 @@
                         <form role="form">
                             <fieldset>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="아이디" name="email" type="email" autofocus>
+                                    <input class="form-control" placeholder="아이디" name="email" type="text" autofocus>
                                 </div>
                                 <div class="form-group">
                                     <input class="form-control" placeholder="비밀번호" name="password" type="password" value="">
