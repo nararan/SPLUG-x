@@ -11,6 +11,8 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
+<link rel="stylesheet" href="resources/resTable/css/rwd-table.min.css">
+
 <!-- Bootstrap Core CSS -->
 <link href="resources/bootstrap/vendor/bootstrap/css/bootstrap.min.css"
 	rel="stylesheet">
@@ -112,6 +114,13 @@
 <!-- Custom Theme JavaScript -->
 <script src="resources/bootstrap/dist/js/sb-admin-2.js"></script>
 
-</body>
+<script src="resources/resTable/js/rwd-table.js"></script>
+
+
+<script>
+   $(function() {
+      $('.table-responsive').responsiveTable({data-pattern=""});
+   });
+</script>
 
 </html>
