@@ -22,6 +22,12 @@ public class LoginController {
 	@Inject
 	memberService memberservice;
 	
+
+	@RequestMapping(value = "login/signup")
+	public String signup() {
+		return "signup";
+	}
+	
 	@RequestMapping(value = "registration", method = RequestMethod.POST)
 	public String login(HttpServletRequest request, MemberVO vo) {
 		vo.setUserid((String) request.getParameter("id"));

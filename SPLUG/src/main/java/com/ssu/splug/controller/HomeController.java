@@ -82,9 +82,4 @@ public class HomeController {
 		return "login";
 	}
 	
-	@RequestMapping(value = "signup")
-	public String signup() {
-		return "signup";
-	}
-	
 }
